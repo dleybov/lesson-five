@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+}
+
+.parent {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: #F7F6F4;
+
+}
+
+.child {
+	width: 830px;
+	height: 170px;
+	border: 1px solid gainsboro;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+
+}
+
+.help {
+	width: 40px;
+	height: 72px;
+	border: 1px solid gainsboro;
+	border-radius: 3px;
+	position: fixed;
+	right: 0;
+	top: 250px;
+	box-shadow: 1px 2px 2px gainsboro;
+	}
+
+ul {
+	padding: 0;
+	width: 100%;
+}
+
+div {
+	display: inline-block;
+	height: 100px;
+	width: 14.28%;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 15px; 
+	position: relative; 
+	left: 10px; 
+	color: #404040;
+	font-family: arial;
+}
+
+h2 {
+	font-size: 11px;
+	font-family: arial;
+	position: relative;
+	left: 30px;
+	color: #404040;
+}
+h3 {
+	position: relative;
+	top: -16%;
+	height: 14px;
+	background: blue;
+	font-size: x-small;
+	text-align: center;
+	font-family: arial;
+	color: white;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+img {
+	border-radius: 100%; 
+	width: 70%; 
+	height: 80%;
+	border: 1px solid gainsboro;
+	position: relative;
+	left: 15%;
+}
+
+i {
+	font-size: 20px;
+	position: relative;
+	top: -15px;
+	border: 1px solid gainsboro;
+}
+
+.fa-question {
+	font-family: FontAwesome;
+	border: none;
+	position: relative;
+	top: -16px;
+	left: 14px;
+	color: blue;
+
+}
+
+.fa-edit {
+	font-family: FontAwesome;
+	border: none;
+	position: relative;
+	top: 10px;
+	color: blue;
+}
